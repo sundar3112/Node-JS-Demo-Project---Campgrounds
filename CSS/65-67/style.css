@@ -1,0 +1,15 @@
+img{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+p{
+	margin: 1.66%;
+	font-family: Lato;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #f2f2f2;
+	width: 30%;
+	padding-bottom: 3%;
+}

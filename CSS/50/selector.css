@@ -1,0 +1,29 @@
+/*Star selector*/
+*{
+	border: 2px solid lightblue;
+}
+
+/*Descendant selector (All the a under li will be given yellow color)*/
+li a{
+	background-color: yellow;
+}
+
+/*adjacent selector (the ul after the h4 header)*/
+h4 + ul{
+	border: 2px dotted red;
+}
+
+/*attribute selector (all the hrefs having google as the link)*/
+
+a[href="https://www.google.com"]{
+	background-color: lightpink;
+}
+
+/*nth of type*/
+
+ul:nth-of-type(2){
+	background-color: purple;
+}
+li:nth-of-type(1){
+	background-color: yellow;
+}

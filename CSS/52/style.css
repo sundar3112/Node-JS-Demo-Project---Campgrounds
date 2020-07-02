@@ -1,0 +1,16 @@
+body{
+	color: red;
+}
+/*Parents condition gets overriden*/
+ul{
+	color:blue;
+}
+li{
+	color:yellow;
+}
+.unique{
+	color:green;
+}
+#special{
+	color:lightblue;
+}

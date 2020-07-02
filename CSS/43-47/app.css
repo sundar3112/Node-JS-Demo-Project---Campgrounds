@@ -1,0 +1,20 @@
+h1{
+	color: #861d99; /*Hexadecimal ,Different ways to pick colors*/
+	/*border-color: black;
+	border-width: 5px;
+	border-style: solid;*/
+	/*or we can use the same syntax below*/
+	border: 2px solid black;
+}
+h4{
+	color: rgb(1, 100, 153); /*rgb color pattern*/
+	background: rgb(100,0,0);  
+}
+li{
+	color: rgba(255,200,100,0.6); /*lesser the last value, more is the transparency*/
+}
+body{
+	background: url(https://media.istockphoto.com/photos/wood-grain-picture-id519791192?k=6&m=519791192&s=612x612&w=0&h=k6Cd38mlWhTumN77fFhlAxgG-fPReirkelTeS8tTwAk=);
+	background-repeat: no-repeat; /*Does not repeat the background image again and again*/
+	background-size: cover; /*Stretches the image to cover the entire background*/
+}

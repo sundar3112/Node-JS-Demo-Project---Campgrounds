@@ -1,0 +1,22 @@
+body{
+	font-size: 10px;
+}
+
+h1{
+	font-family: Lato;
+}
+h1{
+	font-size: 5.0em;
+	text-align: center;
+	text-decoration: underline;
+}
+p{
+	font-family: Sofia;
+	font-size: 2.0em;
+	line-height: 1.5;
+	text-align: right;
+}
+span{
+	font-size: 2.0em;
+	font-weight: bold;
+}

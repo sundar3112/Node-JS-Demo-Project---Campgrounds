@@ -1,0 +1,7 @@
+<% include partials/header %>
+<h1>Hi there new page <%= varThing.toUpperCase() %></h1>
+<% if(varThing.toLowerCase()==="hello")
+{ %>
+    <p>You said Hello</p>
+<% } %>
+<% include partials/footer %>
